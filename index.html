@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+<title>JavaScript Calculator</title>
+<link rel=”icon” type=”image/jpg” href=”favicon.jpg” />
+</head>
+<body>
+<div class="title">
+<h1 style="position: relative;">JavaScript Calculator Assignment</h1>
+<p>  <h3 style="position: relative;">Created for <a href="https://www.facebook.com/groups/WebMobileAppCourse/" target="_blank">Web And Hybrid App Development Course</a></h3>  </p>
+</div>
+<div class="container">
+<div>
+  <div id="display" name="display"></div>
+</div>
+<table>
+  <tr>
+    <td><input class="clrbutton" type= "button" value="C" id="clear" onclick="pressBtn(this)"></input><td>
+  <td><button class="clrbutton" value="<" id="back" onclick="pressBtn(this)">CE</button><td>
+    <td><button class="addbutton" value="*" id="multiply" onclick="pressBtn(this)">x</input><td>
+    <td><button class="addbutton" value="/" id="divide" onclick="pressBtn(this)">/</button><td>
+  </tr>
+  <tr>
+    <td><input class="button" type= "button" value="7" id="seven" onclick="pressBtn(this)"></input><td>
+    <td><input class="button" type= "button" value="8" id="eight" onclick="pressBtn(this)"></input><td>
+    <td><input class="button" type= "button" value="9" id="nine" onclick="pressBtn(this)"></input><td>
+    <td><button class="addbutton" value="-" id="subtract" onclick="pressBtn(this)">-</button><td>
+  </tr>
+   <tr>
+    <td><input class="button" type= "button" value="4" id="four" onclick="pressBtn(this)"></input><td>
+    <td><input class="button" type= "button" value="5" id="five" onclick="pressBtn(this)"></input><td>
+    <td><input class="button" type= "button" value="6" id="six" onclick="pressBtn(this)"></input><td>
+    <td><button class="addbutton" value="+" id="add" onclick="pressBtn(this)">+</button><td>
+  </tr>
+   <tr>
+    <td><input class="button" type= "button" value="1" id="one" onclick="pressBtn(this)"></input><td>
+    <td><input class="button" type= "button" value="2" id="two" onclick="pressBtn(this)"></input><td>
+    <td><input class="button" type= "button" value="3" id="three" onclick="pressBtn(this)"></input><td>
+    <td><button class="addbutton" value="=" id="equals" onclick="pressBtn(this)"><strong>=</strong></button><td>
+  </tr>
+   <tr>
+    <td><button class="button" value="." id="decimal" onclick="pressBtn(this)">.</button><td>
+    <td><input class="zerobutton" type= "button" value="0" id="zero" onclick="pressBtn(this)"></input><td>
+  </tr>
+</div>
+<div class="footer">
+  <p>  <h2 style="position: relative;">Created with &hearts; by <a href="https://github.com/ShaheerDev" target="_blank">Shaheer Khan</a></h2>  </p>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go To Top"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/54/upwards-black-arrow_2b06.png" width="50%"></button>
+<script src="script.js"></script>
+</body>
+</html>
